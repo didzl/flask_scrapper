@@ -2,6 +2,9 @@ flask with python in repl
 
 
 how to use in personal
+
+
+
     Mac
     1. 가상환경 만들기 => python3 -m venv venv
     2. 가상환경 활성화하기 => . venv/bin/activate

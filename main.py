@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, send_file
 from stack_scrapper import get_jobs
 from export import save_file
-
+import pdfkit
 
 app = Flask("han's Scrapper")
 
@@ -64,6 +64,11 @@ def export():
 
   except:
     return redirect("/")
+
+@app.route("/exportPDF")
+def exportPDF():
+  pdfkit.from_url('')
+
   
 
 app.run(host="0.0.0.0") # 0.0.0.0 is repl's host
