@@ -45,8 +45,8 @@ def extract_jobs(last_page, url):
       jobs.append(job)
       
       # print(job)
-    print(jobs)
-    return jobs
+    # print(jobs)
+  return jobs
 
 
 

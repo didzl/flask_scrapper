@@ -1,7 +1,7 @@
 flask with python in repl
 
 
-how to use in personal
+how to use in personal environment
 
 
 
